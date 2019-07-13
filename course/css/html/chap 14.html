@@ -1,0 +1,32 @@
+<DOCTYPE !html>
+<head>
+<title> podina </title>
+<style type="css/text">
+
+input {  font-size: 120%;  color: #5a5854;  
+background-color: #f2f2f2;  border: 1px solid #bdbdbd;
+  border-radius: 5px;  padding: 5px 5px 5px 30px;  
+background-repeat: no-repeat;  background-position: 8px 9px;
+  display: block;  margin-bottom: 10px;}
+
+
+ input:focus { background-color: #ffffff;  border: 1px solid #b1e1e4;} 
+input#email {  background-image: url("images/email.png");}
+ input#twitter {  background-image: url("images/twitter.png");}
+ input#web { background-image: url("images/web.png");
+</style>
+</head>
+<body>
+<form action="example.php" method="post">
+ <div>  <label for="name" class="title">Name:</label>
+	  <input type="text" id="name" name="name" /> </div> 
+
+<div>  <label for="email" class="title">Email:</label>
+	  <input type="email" id="email" name="email" /> </div>
+ <div>  <span class="title">Gender:</span>  <input type="radio" name="gender" id="male"    value="M" />
+
+  <label for="male">Male</label>  <input type="radio" name="gender" id="female"    value="F" />  
+<label for="female">Female</label><br /> </div> <div>  <input type="submit" value="Register"    id="submit" /> </div> 
+</form>
+</body>
+</html>
